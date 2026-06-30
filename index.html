@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Path Finding Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Path Finding Simulator</h1>
+
+<div id="controls">
+    <div class="controls">
+
+    <div class="group">
+        <button id="startBtn">Start</button>
+        <button id="endBtn">End</button>
+        <button id="wallBtn">Wall</button>
+    </div>
+
+    <div class="group">
+        <label>Algorithm:</label>
+
+        <select id="algorithm">
+            <option value="bfs">BFS</option>
+            <option value="dfs">DFS</option>
+        </select>
+
+        <label>Speed:</label>
+
+        <select id="speed">
+            <option value="50">Fast</option>
+            <option value="100" selected>Medium</option>
+            <option value="200">Slow</option>
+        </select>
+    </div>
+
+    <div class="group">
+        <button id="runBtn">Run</button>
+        <button id="resetBtn">Reset Search</button>
+        <button id="clrBtn">Clear Board</button>
+    </div>
+
+</div>
+</div>
+
+
+<p id="status">Mode: Wall</p>
+
+<br>
+
+<div id="grid"></div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
