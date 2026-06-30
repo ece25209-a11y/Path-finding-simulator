@@ -53,3 +53,16 @@ An interactive Path Finding Simulator built using HTML, CSS, and JavaScript. Thi
 ## Author
 
 Tannistha Saha
+
+
+## Screenshots
+
+### Home
+![Home](images/home.png)
+
+### BFS
+![BFS](images/bfs.png)
+
+### DFS
+![DFS](images/dfs.png)
+
