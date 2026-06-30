@@ -52,4 +52,4 @@ An interactive Path Finding Simulator built using HTML, CSS, and JavaScript. Thi
 
 ## Author
 
-Tannishtha Saha
+Tannistha Saha
